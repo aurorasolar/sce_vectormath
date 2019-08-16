@@ -182,7 +182,7 @@ public:
 
 }
 #ifdef __GNUC__
-__attribute__ ((aligned(16)))
+__attribute__ ((aligned(4)))
 #endif
 ;
 
